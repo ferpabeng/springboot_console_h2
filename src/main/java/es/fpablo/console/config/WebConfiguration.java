@@ -25,7 +25,7 @@ public class WebConfiguration {
 		return new EmbeddedDatabaseBuilder()
 				.setName("testFer")
 				.setType(EmbeddedDatabaseType.H2)
-				.addScript("classpath:schema2018.sql")
+				.addScript("classpath:schema_h2.sql")
 				.build();
 	}
 }
