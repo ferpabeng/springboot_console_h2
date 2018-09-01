@@ -20,12 +20,12 @@ public class WebConfiguration {
     }
     
     @Bean
-	@Profile("default")
-	public DataSource embeddedDatasource() {
-		return new EmbeddedDatabaseBuilder()
-				.setName("testFer")
-				.setType(EmbeddedDatabaseType.H2)
-				.addScript("classpath:schema_h2.sql")
-				.build();
-	}
+    @Profile("default")
+    public DataSource embeddedDatasource() {
+	return new EmbeddedDatabaseBuilder()
+			.setName("testDB")
+			.setType(EmbeddedDatabaseType.H2)
+			.addScript("classpath:schema_h2.sql")
+			.build();
+    }
 }
