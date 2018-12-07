@@ -1,4 +1,4 @@
-package es.fpablo.console;
+package es.ferpabeng.console;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

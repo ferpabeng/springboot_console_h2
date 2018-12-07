@@ -1,4 +1,4 @@
-package es.fpablo.console.config;
+package es.ferpabeng.console.config;
 
 import javax.sql.DataSource;
 
